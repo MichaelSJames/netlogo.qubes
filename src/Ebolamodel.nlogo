@@ -190,15 +190,14 @@ to removed ;this is the function for removing a turtle - either making it immune
 
 
 end
-
 @#$#@#$#@
 GRAPHICS-WINDOW
 464
 10
-897
-444
--1
--1
+899
+466
+50
+50
 4.21
 1
 10
@@ -262,7 +261,7 @@ infection-rate
 infection-rate
 0
 100
-77.0
+77
 1
 1
 %
@@ -297,7 +296,7 @@ death-rate
 death-rate
 0
 100
-35.0
+35
 1
 1
 %
@@ -316,7 +315,7 @@ INPUTBOX
 306
 262
 time-to-return1
-200.0
+200
 1
 0
 Number
@@ -344,7 +343,7 @@ INPUTBOX
 411
 262
 virus-viability
-7.0
+7
 1
 0
 Number
@@ -358,7 +357,7 @@ density
 density
 0
 100
-100.0
+100
 1
 1
 %
@@ -372,7 +371,7 @@ CHOOSER
 initial-infecteds
 initial-infecteds
 "one-random" "group-random" "group-cluster"
-0
+2
 
 @#$#@#$#@
 ## WHAT IS IT?
@@ -738,8 +737,9 @@ false
 0
 Polygon -7500403 true true 270 75 225 30 30 225 75 270
 Polygon -7500403 true true 30 75 75 30 270 225 225 270
+
 @#$#@#$#@
-NetLogo 6.0.4
+NetLogo 5.1.0
 @#$#@#$#@
 @#$#@#$#@
 @#$#@#$#@
@@ -755,6 +755,7 @@ true
 0
 Line -7500403 true 150 150 90 180
 Line -7500403 true 150 150 210 180
+
 @#$#@#$#@
 0
 @#$#@#$#@
